@@ -9,7 +9,7 @@ function App() { // This is not a function. It's a componet. Componet is those t
 
   return (
     <>
-    <h1>Hello {name}</h1>
+    <h1 className='haha'>Hello {name}</h1>
     </>
   )
 }
