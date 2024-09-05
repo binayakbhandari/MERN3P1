@@ -1,12 +1,14 @@
 import Card from "./Card";
 
 function Test(){
-    const color = {
-        backgroundColor : 'blue'
-    }
+    
     return(
         <>
-        <Card color='green' />
+            <div style={{display:'flex'}}>
+                <Card />
+                <Card />
+                <Card />
+            </div>
         </>
     )
 }
