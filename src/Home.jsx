@@ -16,6 +16,7 @@ function Home(){
                     </ul>
                 </div>
             </nav>
+            
 
             {/* Hero Section */}
             <section className="hero" id="home">

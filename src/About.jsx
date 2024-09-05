@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './about.css'
 
 function About() {
@@ -15,11 +16,13 @@ function About() {
                             </p>
                             <p>
                                 I thrive in dynamic environments where learning and growth are constant. I'm also passionate about
+
                                 working on collaborative projects and turning innovative ideas into reality.
                             </p>
-                            <a href="#contact" className="btn">Contact Me</a>
+                            <Link to="/contact" className="btn">Contact Me</Link>
                         </div>
                         <div className="about-image">
+                            <img src="https://avatars.githubusercontent.com/u/173297872?s=400&v=4" alt="" />
                             {/* <img src="https://via.placeholder.com/400" alt="About Me Image"> */}
                         </div>
                     </div>
